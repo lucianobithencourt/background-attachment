@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,20 +15,46 @@
 
 body {
     height: 100vh;
-    background-image: url(../img/wallpaper002.jpg);
+    background-size: cover;
+    background: black url('../img/wallpaper002.jpg') center center no-repeat fixed;
+
+
+    /* 
+   background-image: url(../img/wallpaper002.jpg);
    background-color: black;
-  
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
+    
+   
+   
+   usando background attachment 
+    - background-attachment: fixed;
+    - background-attachment: scroll;
+    */
+    /* shorthand Background
+   
+   color > 
+   image >
+   position >
+   repeat >
+   size >
+   attachement ;
+
+
+
+   */
+
+
 
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
-    margin:auto;
+    margin: auto;
     border: 1px solid darkblue;
     border-radius: 15px;
 }
@@ -36,5 +63,3 @@ p {
     text-align: justify;
     text-indent: 20px;
 }
-
-
