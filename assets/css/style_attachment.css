@@ -5,6 +5,36 @@
 }
 
 
+/* background-size - define o tamanho da imagem de fundo : 
+
+        
+    
+
+   */
+
 body {
-    background-color: rgb(100, 6, 6);
+    height: 100vh;
+    background-image: url(../img/wallpaper002.jpg);
+   background-color: black;
+  
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
+
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin:auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
